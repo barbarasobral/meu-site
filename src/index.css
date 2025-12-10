@@ -1,0 +1,20 @@
+@import "tailwindcss";
+@tailwind utilities;
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+  font-family: "Exo 2", sans;
+}
+
+@theme {
+  --color-oranges: #ff6d38;
+  --color-blues: #7a78ff;
+  --color-lemon: #c7ff69;
+
+  
+}
+
+html {
+  scroll-behavior: smooth;
+}
