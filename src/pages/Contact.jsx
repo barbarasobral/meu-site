@@ -44,11 +44,11 @@ const Contact = () => {
                 <form onSubmit={onSubmit} className="space-y-6">
                     <div>
                         <label className='block text-sm font-medium mb-1'>Full Name</label>
-                        <input type="text" placeholder='Enter your name' name='name' required className='w-full border border-blues p-3 rounded-lg' />
+                        <input type="text" placeholder='Enter your name' name='name' required autoComplete='name' className='w-full border border-blues p-3 rounded-lg' />
                     </div>
                     <div>
                         <label className='block text-sm font-medium mb-1'>E-mail Address</label>
-                        <input type="email" placeholder='Enter your e-mail' name='email' required className='w-full border border-blues p-3 rounded-lg' />
+                        <input type="email" placeholder='Enter your e-mail' name='email' required autoComplete='email' className='w-full border border-blues p-3 rounded-lg' />
                     </div>
                     <div>
                         <label className='block text-sm font-medium mb-1'>Your Message</label>

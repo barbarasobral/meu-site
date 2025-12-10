@@ -1,4 +1,10 @@
 import React from 'react'
+import songMusic from '../assets/song-music.png';
+import shoppingCart from '../assets/shopping-cart.png';
+import guessWord from '../assets/guess-word.png';
+import miniBlog from '../assets/mini-blog.png';
+import passwordGenerator from '../assets/password-generator.png';
+import weatherApp from '../assets/weather-app.png';
 
 
 
@@ -9,7 +15,7 @@ const Projects = () => {
             <h1 className='text-oranges text-5xl font-bold mb-6 mt-10 text-center'>Projects</h1>
             <div className="flex gap-6 p-4">
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/song-music.png" alt="Projeto SongMusic" className='w-full h-62 object-cover rounded' />
+                <img src={songMusic} alt="Projeto SongMusic" className='w-full h-62 object-cover rounded' />
                 <h3 className='text-white text-xl font-bold mt-4'>SONG MUSIC</h3>
                 <p className='text-gray-300'>A site for music app</p>
                 <p className='text-gray-400 text-sm mt-2'>• HTML • TAILWIND • JAVASCRIPT</p>
@@ -19,7 +25,7 @@ const Projects = () => {
               </div>
 
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/shopping-cart.png" alt="Projeto Shopping Cart" className="w-full h-62 object-cover rounded" />
+                <img src={shoppingCart} alt="Projeto Shopping Cart" className="w-full h-62 object-cover rounded" />
                 <h3 className='text-white text-xl font-bold mt-4'>SHOPPING CART</h3>
                 <p className='text-gray-300'>A shopping cart website</p>
                 <p className='text-gray-400 text-sm mt-2'>• REACT • CSS • JAVASCRIPT</p>
@@ -29,7 +35,7 @@ const Projects = () => {
               </div>
 
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/guess-word.png" alt="Projeto Guess Word" className="w-full h-62 object-cover rounded" />
+                <img src={guessWord} alt="Projeto Guess Word" className="w-full h-62 object-cover rounded" />
                 <h3 className='text-white text-xl font-bold mt-4'>GUESS WORD</h3>
                 <p className='text-gray-300'>Guess word game</p>
                 <p className='text-gray-400 text-sm mt-2'>• REACT • CSS • JAVASCRIPT</p>
@@ -39,7 +45,7 @@ const Projects = () => {
               </div>
 
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/mini-blog.png" alt="Projeto Mini Blog" className="w-full h-62 object-cover rounded" />
+                <img src={miniBlog} alt="Projeto Mini Blog" className="w-full h-62 object-cover rounded" />
                 <h3 className='text-white text-xl font-bold mt-4'>MINI BLOG</h3>
                 <p className='text-gray-300'>A mini blog website</p>
                 <p className='text-gray-400 text-sm mt-2'>• REACT • CSS • JAVASCRIPT • FIREBASE</p>
@@ -49,7 +55,7 @@ const Projects = () => {
               </div>
 
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/password-generator.png" alt="Projeto Gerador de Senha" className="w-full h-62 object-cover rounded" />
+                <img src={passwordGenerator} alt="Projeto Gerador de Senha" className="w-full h-62 object-cover rounded" />
                 <h3 className='text-white text-xl font-bold mt-4'>PASSWORD GENERATOR</h3>
                 <p className='text-gray-300'>A site for generating random passwords</p>
                 <p className='text-gray-400 text-sm mt-2'>• HTML • CSS • JAVASCRIPT</p>
@@ -60,7 +66,7 @@ const Projects = () => {
               </div> 
 
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
-                <img src="./src/assets/weather-app.png" alt="Projeto Weather App" className="w-full h-62 object-cover rounded" />
+                <img src={weatherApp} alt="Projeto Weather App" className="w-full h-62 object-cover rounded" />
                 <h3 className='text-white text-xl font-bold mt-4'>WEATHER APP</h3>
                 <p className='text-gray-300'>A simple weather app</p>
                 <p className='text-gray-400 text-sm mt-2'>• HTML • CSS • JAVASCRIPT</p>

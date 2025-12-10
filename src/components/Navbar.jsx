@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import ThemeToggleButton from './ThemeToggleButton'
+import minhaLogo from '../assets/logo.png'
 
 const Navbar = ({ theme, toggleTheme}) => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -33,7 +34,7 @@ const Navbar = ({ theme, toggleTheme}) => {
                     <div className="flex items-center justify-between h-16">
                     <div className="shrink-0">
                         <a href="/" onClick={scrollToTop}>
-                            <img src="./src/assets/logo.png" alt="Página Inicial" className="w-12 md:w-16" />
+                            <img src={minhaLogo} alt="Página Inicial" className="w-12 md:w-16" />
                         </a>
                     </div>
                         <nav className="hidden md:flex md:items-center md:space-x-4 font-bold">
