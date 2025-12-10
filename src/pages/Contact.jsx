@@ -63,7 +63,7 @@ const Contact = () => {
                             <a href="https://github.com/barbarasobral"><FaGithub /></a>
                         </li>
                         <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
-                            <a href="www.linkedin.com/in/barbaratsobral"><FaLinkedin /></a>
+                            <a href="https://www.linkedin.com/in/barbaratsobral"><FaLinkedin /></a>
                         </li>
                         <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
                             <a href="https://www.instagram.com/barbarathaiss"><FaInstagram /></a>
