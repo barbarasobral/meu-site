@@ -3,6 +3,7 @@ import Swal from 'sweetalert2'
 
 
 
+
 const Contact = () => {
     
 
@@ -37,7 +38,7 @@ const Contact = () => {
   return (
     <section id='contact' className='bg-white dark:bg-black min-h-screen flex items-center justify-center p-4'>
         <div className="w-full max-w-6xl mx-auto">
-          <h1 className='text-5xl text-oranges font-bold text-center items-center'>Contact Me</h1>
+          <h1 className='text-4xl text-oranges font-bold text-center items-center'>Contact Me</h1>
             <div className="grid md:grid-cols-1 justify-items-center w-full">
                <div className=' text-black dark:text-white shadow-lg rounded-lg p-6 md:p-10 w-full max-w-2xl'>
                                               

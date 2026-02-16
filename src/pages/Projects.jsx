@@ -12,7 +12,7 @@ const Projects = () => {
     
     return (
         <div id='projects' className="w-full overflow-x-auto bg-white dark:bg-black">
-            <h1 className='text-oranges text-5xl font-bold mb-6 mt-10 text-center'>Projects</h1>
+            <h1 className='text-oranges text-4xl font-bold mb-6 mt-10 text-center'>Projects</h1>
             <div className="flex gap-6 p-4">
               <div className="min-w-[600px] bg-slate-900 rounded-lg shadow-lg p-4">
                 <img src={songMusic} alt="Projeto SongMusic" className='w-full h-62 object-cover rounded' />
