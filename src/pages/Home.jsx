@@ -1,5 +1,6 @@
 import React from "react";
 import Hero from "../components/Hero"
+import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp  } from "react-icons/fa";
 
 
 
@@ -19,7 +20,22 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <a href="#skills" className="sticky bottom-24 left-1/2 transform -translate-x-1/2 md:left-8 md:transform-none bg-blues hover:bg-indigo-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transition duration-300 ease-in-out z-50 w-fit">Skills</a>
+            <div className="flex justify-between px-11 py-2">
+                <ul className="flex justify-center gap-4">
+                    <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
+                        <a href="https://github.com/barbarasobral"><FaGithub /></a>
+                    </li>
+                    <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
+                        <a href="https://www.linkedin.com/in/barbaratsobral"><FaLinkedin /></a>
+                    </li>
+                    <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
+                        <a href="https://www.instagram.com/barbarathaiss"><FaInstagram /></a>
+                    </li>
+                    <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
+                        <a href="https://wa.me/5575992533951"><FaWhatsapp /></a>
+                    </li>
+                </ul>
+            </div>
         </div>
         
     )

@@ -1,6 +1,6 @@
 import React from 'react'
 import Swal from 'sweetalert2'
-import { FaGithub, FaLinkedin, FaInstagram, FaWhatsapp  } from "react-icons/fa";
+
 
 
 const Contact = () => {
@@ -38,8 +38,8 @@ const Contact = () => {
     <section id='contact' className='bg-white dark:bg-black min-h-screen flex items-center justify-center p-4'>
         <div className="w-full max-w-6xl mx-auto">
           <h1 className='text-5xl text-oranges font-bold text-center items-center'>Contact Me</h1>
-            <div className="grid md:grid-cols-3 gap-8 items-center justify-between w-full">
-               <div className='md:col-span-2 text-black dark:text-white shadow-lg rounded-lg p-6 md:p-10 w-full'>
+            <div className="grid md:grid-cols-1 justify-items-center w-full">
+               <div className=' text-black dark:text-white shadow-lg rounded-lg p-6 md:p-10 w-full max-w-2xl'>
                                               
                 <form onSubmit={onSubmit} className="space-y-6">
                     <div>
@@ -57,22 +57,7 @@ const Contact = () => {
                     <button type='submit' className='w-full bg-blues hover:bg-blue-600 rounded-lg transition duration-200'>Send Message</button>
                 </form>
             </div>            
-                <div className="md:col-span-1 flex justify-center">
-                    <ul className="flex justify-center md:flex-col gap-4">
-                        <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
-                            <a href="https://github.com/barbarasobral"><FaGithub /></a>
-                        </li>
-                        <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
-                            <a href="https://www.linkedin.com/in/barbaratsobral"><FaLinkedin /></a>
-                        </li>
-                        <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
-                            <a href="https://www.instagram.com/barbarathaiss"><FaInstagram /></a>
-                        </li>
-                        <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
-                            <a href="https://wa.me/5575992533951"><FaWhatsapp /></a>
-                        </li>
-                    </ul>
-                </div>
+                
             </div>   
         </div>
     </section>
