@@ -20,7 +20,7 @@ const Home = () => {
                     </div>
                 </div>
             </main>
-            <div className="flex justify-between px-18 py-2">
+            <div className="flex justify-between px-20 md:px-12 py-2">
                 <ul className="flex justify-center gap-4">
                     <li className="flex items-center justify-center text-2xl bg-blues w-12 h-12 rounded-full hover:text-lemon transition duration-200">
                         <a href="https://github.com/barbarasobral"><FaGithub /></a>
