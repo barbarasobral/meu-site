@@ -76,7 +76,7 @@ const Projects = () => {
                 </div>
               </div>
             </div>
-            <div className=' flex justify-center mt-5 mb-3 '>
+            <div className='sticky left-0 right-0 flex justify-center mt-5 mb-3 w-full'>
                 <a href="https://github.com/barbarasobral?tab=repositories" className='bg-lemon text-slate-900 font-bold hover:underline rounded-full w-fit px-4 py-2 mb-2' target='_blank' rel='noopener noreferrer'>More Projects</a>
             </div>
         </div>
